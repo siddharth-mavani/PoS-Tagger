@@ -2,6 +2,16 @@
 
 This project implements a Part-of-Speech (PoS) Tagger using a Bidirectional Long Short-Term Memory (Bi-LSTM) model. The model is trained on a combination of datasets provided by NLTK and uses the universal tagset for labeling.
 
+A Part-of-Speech (PoS) tagger is a tool used in natural language processing (NLP) to label each word in a sentence with its corresponding part of speech, such as noun, verb, adjective, etc. This process helps in understanding the syntactic structure of the sentence and the role each word plays within it.
+
+### Example
+
+Consider the sentence: "The quick brown fox jumps over the lazy dog."
+
+[('the', 'det'), ('quick', 'adj'), . . . ('lazy', 'adj'), ('dog', 'noun')]
+
+Each word is tagged according to its part of speech, which helps in understanding how the words relate to each other. This tagging is crucial for various NLP tasks like parsing, text-to-speech systems, and information extraction.
+
 ## Datasets
 
 The following datasets were combined for training the model:
