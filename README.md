@@ -63,8 +63,6 @@ The project follows these steps to train the PoS tagger:
    - Test the model on the test dataset.
    - Perform inference on new sentences to predict PoS tags.
 
-Here's an updated section to include in the README, covering the model architecture and the flow of data dimensions:
-
 ## Model Architecture
 
 1. **Embedding Layer**: 
