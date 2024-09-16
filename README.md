@@ -6,9 +6,11 @@ A Part-of-Speech (PoS) tagger is a tool used in natural language processing (NLP
 
 ### Example
 
-Consider the sentence: "The quick brown fox jumps over the lazy dog."
+Consider the sentence: `The quick brown fox jumps over the lazy dog.`
 
+```
 [('the', 'det'), ('quick', 'adj'), . . . ('lazy', 'adj'), ('dog', 'noun')]
+```
 
 Each word is tagged according to its part of speech, which helps in understanding how the words relate to each other. This tagging is crucial for various NLP tasks like parsing, text-to-speech systems, and information extraction.
 
